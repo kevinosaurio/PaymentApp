@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A053AF621A61D57005CF0DB /* PaymentServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A053AF521A61D57005CF0DB /* PaymentServices.m */; };
+		2A053AFB21A6325A005CF0DB /* PaymentMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A053AFA21A6325A005CF0DB /* PaymentMethod.m */; };
+		2A053AFF21A63F77005CF0DB /* PaymentMethodIssuersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A053AFE21A63F77005CF0DB /* PaymentMethodIssuersViewController.m */; };
+		2A053B0321A6444D005CF0DB /* PaymentMethodIssuers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A053B0221A6444D005CF0DB /* PaymentMethodIssuers.m */; };
+		2A053B0721A64984005CF0DB /* PaymentInstallmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A053B0621A64984005CF0DB /* PaymentInstallmentsViewController.m */; };
+		2A0921B521A5154200B973CD /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0921B421A5154200B973CD /* MyButton.m */; };
+		2A0921BF21A51B1C00B973CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0921BE21A51B1C00B973CD /* MainViewController.m */; };
+		2A0921C321A5206200B973CD /* PaymentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0921C221A5206200B973CD /* PaymentModel.m */; };
+		2A0921C821A5351200B973CD /* PaymentMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0921C721A5351200B973CD /* PaymentMethodViewController.m */; };
+		2A0921CD21A539C000B973CD /* PaymentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0921CB21A539C000B973CD /* PaymentTableViewCell.m */; };
+		2A0921CE21A539C000B973CD /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A0921CC21A539C000B973CD /* PaymentTableViewCell.xib */; };
+		2A4141D221A53DD800A6D1F9 /* blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4141D121A53DD800A6D1F9 /* blank.swift */; };
+		2A9CE0FF21A4F0B1002C6E5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CE0FE21A4F0B1002C6E5F /* AppDelegate.m */; };
+		2A9CE10521A4F0B1002C6E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CE10321A4F0B1002C6E5F /* Main.storyboard */; };
+		2A9CE10721A4F0B3002C6E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CE10621A4F0B3002C6E5F /* Assets.xcassets */; };
+		2A9CE10A21A4F0B3002C6E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CE10821A4F0B3002C6E5F /* LaunchScreen.storyboard */; };
+		2A9CE10D21A4F0B3002C6E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CE10C21A4F0B3002C6E5F /* main.m */; };
+		AB72EFE8DE09B39A9742B2DF /* libPods-ML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F07D9046B00D59AE3F3BE59 /* libPods-ML.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F07D9046B00D59AE3F3BE59 /* libPods-ML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A053AF421A61D57005CF0DB /* PaymentServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentServices.h; sourceTree = "<group>"; };
+		2A053AF521A61D57005CF0DB /* PaymentServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentServices.m; sourceTree = "<group>"; };
+		2A053AF921A6325A005CF0DB /* PaymentMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethod.h; sourceTree = "<group>"; };
+		2A053AFA21A6325A005CF0DB /* PaymentMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethod.m; sourceTree = "<group>"; };
+		2A053AFD21A63F77005CF0DB /* PaymentMethodIssuersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodIssuersViewController.h; sourceTree = "<group>"; };
+		2A053AFE21A63F77005CF0DB /* PaymentMethodIssuersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodIssuersViewController.m; sourceTree = "<group>"; };
+		2A053B0121A6444D005CF0DB /* PaymentMethodIssuers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodIssuers.h; sourceTree = "<group>"; };
+		2A053B0221A6444D005CF0DB /* PaymentMethodIssuers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodIssuers.m; sourceTree = "<group>"; };
+		2A053B0521A64984005CF0DB /* PaymentInstallmentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentInstallmentsViewController.h; sourceTree = "<group>"; };
+		2A053B0621A64984005CF0DB /* PaymentInstallmentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentInstallmentsViewController.m; sourceTree = "<group>"; };
+		2A0921B321A5154200B973CD /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		2A0921B421A5154200B973CD /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		2A0921BD21A51B1C00B973CD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2A0921BE21A51B1C00B973CD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2A0921C121A5206200B973CD /* PaymentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentModel.h; sourceTree = "<group>"; };
+		2A0921C221A5206200B973CD /* PaymentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentModel.m; sourceTree = "<group>"; };
+		2A0921C621A5351200B973CD /* PaymentMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentMethodViewController.h; sourceTree = "<group>"; };
+		2A0921C721A5351200B973CD /* PaymentMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentMethodViewController.m; sourceTree = "<group>"; };
+		2A0921CA21A539C000B973CD /* PaymentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentTableViewCell.h; sourceTree = "<group>"; };
+		2A0921CB21A539C000B973CD /* PaymentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentTableViewCell.m; sourceTree = "<group>"; };
+		2A0921CC21A539C000B973CD /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
+		2A4141CE21A53DAA00A6D1F9 /* ML-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ML-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A4141D121A53DD800A6D1F9 /* blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blank.swift; sourceTree = "<group>"; };
+		2A9CE0FA21A4F0B1002C6E5F /* ML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9CE0FD21A4F0B1002C6E5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A9CE0FE21A4F0B1002C6E5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A9CE10421A4F0B1002C6E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9CE10621A4F0B3002C6E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9CE10921A4F0B3002C6E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9CE10B21A4F0B3002C6E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9CE10C21A4F0B3002C6E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61DE928BE5CC83AF9F58B09E /* Pods-ML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ML/Pods-ML.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0596377538621D090FA198 /* Pods-ML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML.release.xcconfig"; path = "Pods/Target Support Files/Pods-ML/Pods-ML.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9CE0F721A4F0B1002C6E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB72EFE8DE09B39A9742B2DF /* libPods-ML.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A053AF321A61D35005CF0DB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A053AF421A61D57005CF0DB /* PaymentServices.h */,
+				2A053AF521A61D57005CF0DB /* PaymentServices.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A053AF721A63228005CF0DB /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2A053B0021A64426005CF0DB /* PaymentMethodIssuers */,
+				2A053AF821A6322E005CF0DB /* PaymentMethod */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2A053AF821A6322E005CF0DB /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				2A053AF921A6325A005CF0DB /* PaymentMethod.h */,
+				2A053AFA21A6325A005CF0DB /* PaymentMethod.m */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
+		2A053AFC21A63F23005CF0DB /* PaymentMethodIssuerVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A053AFD21A63F77005CF0DB /* PaymentMethodIssuersViewController.h */,
+				2A053AFE21A63F77005CF0DB /* PaymentMethodIssuersViewController.m */,
+			);
+			path = PaymentMethodIssuerVC;
+			sourceTree = "<group>";
+		};
+		2A053B0021A64426005CF0DB /* PaymentMethodIssuers */ = {
+			isa = PBXGroup;
+			children = (
+				2A053B0121A6444D005CF0DB /* PaymentMethodIssuers.h */,
+				2A053B0221A6444D005CF0DB /* PaymentMethodIssuers.m */,
+			);
+			path = PaymentMethodIssuers;
+			sourceTree = "<group>";
+		};
+		2A053B0421A64958005CF0DB /* PaymentInstallmentsVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A053B0521A64984005CF0DB /* PaymentInstallmentsViewController.h */,
+				2A053B0621A64984005CF0DB /* PaymentInstallmentsViewController.m */,
+			);
+			path = PaymentInstallmentsVC;
+			sourceTree = "<group>";
+		};
+		2A0921B021A5150600B973CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A053AF721A63228005CF0DB /* Entities */,
+				2A0921B121A5150E00B973CD /* Views */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2A0921B121A5150E00B973CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921C921A5394500B973CD /* PaymentCell */,
+				2A0921B221A5151700B973CD /* MyButton */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A0921B221A5151700B973CD /* MyButton */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921B321A5154200B973CD /* MyButton.h */,
+				2A0921B421A5154200B973CD /* MyButton.m */,
+			);
+			path = MyButton;
+			sourceTree = "<group>";
+		};
+		2A0921BA21A51A0700B973CD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2A9CE10B21A4F0B3002C6E5F /* Info.plist */,
+				2A9CE10C21A4F0B3002C6E5F /* main.m */,
+				2A4141CE21A53DAA00A6D1F9 /* ML-Bridging-Header.h */,
+				2A4141D121A53DD800A6D1F9 /* blank.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		2A0921BB21A51AF600B973CD /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921BC21A51B0700B973CD /* Main */,
+				2A0921C521A534ED00B973CD /* PaymentMethodVC */,
+				2A053AFC21A63F23005CF0DB /* PaymentMethodIssuerVC */,
+				2A053B0421A64958005CF0DB /* PaymentInstallmentsVC */,
+			);
+			path = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		2A0921BC21A51B0700B973CD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921BD21A51B1C00B973CD /* MainViewController.h */,
+				2A0921BE21A51B1C00B973CD /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A0921C021A5204400B973CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921C121A5206200B973CD /* PaymentModel.h */,
+				2A0921C221A5206200B973CD /* PaymentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A0921C521A534ED00B973CD /* PaymentMethodVC */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921C621A5351200B973CD /* PaymentMethodViewController.h */,
+				2A0921C721A5351200B973CD /* PaymentMethodViewController.m */,
+			);
+			path = PaymentMethodVC;
+			sourceTree = "<group>";
+		};
+		2A0921C921A5394500B973CD /* PaymentCell */ = {
+			isa = PBXGroup;
+			children = (
+				2A0921CA21A539C000B973CD /* PaymentTableViewCell.h */,
+				2A0921CB21A539C000B973CD /* PaymentTableViewCell.m */,
+				2A0921CC21A539C000B973CD /* PaymentTableViewCell.xib */,
+			);
+			path = PaymentCell;
+			sourceTree = "<group>";
+		};
+		2A9CE0F121A4F0B1002C6E5F = {
+			isa = PBXGroup;
+			children = (
+				2A9CE0FC21A4F0B1002C6E5F /* ML */,
+				2A9CE0FB21A4F0B1002C6E5F /* Products */,
+				712EFF506DCA3ADD71DD6F22 /* Pods */,
+				950FAD0A787456E6EF824273 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9CE0FB21A4F0B1002C6E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9CE0FA21A4F0B1002C6E5F /* ML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9CE0FC21A4F0B1002C6E5F /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				2A9CE0FD21A4F0B1002C6E5F /* AppDelegate.h */,
+				2A9CE0FE21A4F0B1002C6E5F /* AppDelegate.m */,
+				2A9CE10321A4F0B1002C6E5F /* Main.storyboard */,
+				2A0921C021A5204400B973CD /* Model */,
+				2A053AF321A61D35005CF0DB /* Services */,
+				2A0921BB21A51AF600B973CD /* ViewsControllers */,
+				2A0921B021A5150600B973CD /* Helpers */,
+				2A0921BA21A51A0700B973CD /* Supporting files */,
+				2A9CE10621A4F0B3002C6E5F /* Assets.xcassets */,
+				2A9CE10821A4F0B3002C6E5F /* LaunchScreen.storyboard */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		712EFF506DCA3ADD71DD6F22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61DE928BE5CC83AF9F58B09E /* Pods-ML.debug.xcconfig */,
+				EC0596377538621D090FA198 /* Pods-ML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		950FAD0A787456E6EF824273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F07D9046B00D59AE3F3BE59 /* libPods-ML.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9CE0F921A4F0B1002C6E5F /* ML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9CE11021A4F0B3002C6E5F /* Build configuration list for PBXNativeTarget "ML" */;
+			buildPhases = (
+				317DE6E71DBA3C814068F718 /* [CP] Check Pods Manifest.lock */,
+				2A9CE0F621A4F0B1002C6E5F /* Sources */,
+				2A9CE0F721A4F0B1002C6E5F /* Frameworks */,
+				2A9CE0F821A4F0B1002C6E5F /* Resources */,
+				6361E7EF875EDAFF0CFBDAC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ML;
+			productName = ML;
+			productReference = 2A9CE0FA21A4F0B1002C6E5F /* ML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9CE0F221A4F0B1002C6E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kb;
+				TargetAttributes = {
+					2A9CE0F921A4F0B1002C6E5F = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2A9CE0F521A4F0B1002C6E5F /* Build configuration list for PBXProject "ML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9CE0F121A4F0B1002C6E5F;
+			productRefGroup = 2A9CE0FB21A4F0B1002C6E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9CE0F921A4F0B1002C6E5F /* ML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9CE0F821A4F0B1002C6E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9CE10A21A4F0B3002C6E5F /* LaunchScreen.storyboard in Resources */,
+				2A9CE10721A4F0B3002C6E5F /* Assets.xcassets in Resources */,
+				2A0921CE21A539C000B973CD /* PaymentTableViewCell.xib in Resources */,
+				2A9CE10521A4F0B1002C6E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		317DE6E71DBA3C814068F718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6361E7EF875EDAFF0CFBDAC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ML/Pods-ML-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ML/Pods-ML-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9CE0F621A4F0B1002C6E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A053AF621A61D57005CF0DB /* PaymentServices.m in Sources */,
+				2A9CE10D21A4F0B3002C6E5F /* main.m in Sources */,
+				2A053AFF21A63F77005CF0DB /* PaymentMethodIssuersViewController.m in Sources */,
+				2A0921C321A5206200B973CD /* PaymentModel.m in Sources */,
+				2A9CE0FF21A4F0B1002C6E5F /* AppDelegate.m in Sources */,
+				2A0921CD21A539C000B973CD /* PaymentTableViewCell.m in Sources */,
+				2A0921BF21A51B1C00B973CD /* MainViewController.m in Sources */,
+				2A0921C821A5351200B973CD /* PaymentMethodViewController.m in Sources */,
+				2A053AFB21A6325A005CF0DB /* PaymentMethod.m in Sources */,
+				2A4141D221A53DD800A6D1F9 /* blank.swift in Sources */,
+				2A053B0321A6444D005CF0DB /* PaymentMethodIssuers.m in Sources */,
+				2A0921B521A5154200B973CD /* MyButton.m in Sources */,
+				2A053B0721A64984005CF0DB /* PaymentInstallmentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A9CE10321A4F0B1002C6E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9CE10421A4F0B1002C6E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9CE10821A4F0B3002C6E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9CE10921A4F0B3002C6E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9CE10E21A4F0B3002C6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A9CE10F21A4F0B3002C6E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9CE11121A4F0B3002C6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DE928BE5CC83AF9F58B09E /* Pods-ML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ML/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kb.ML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ML/Supporting files/ML-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A9CE11221A4F0B3002C6E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0596377538621D090FA198 /* Pods-ML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ML/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kb.ML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ML/Supporting files/ML-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9CE0F521A4F0B1002C6E5F /* Build configuration list for PBXProject "ML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9CE10E21A4F0B3002C6E5F /* Debug */,
+				2A9CE10F21A4F0B3002C6E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9CE11021A4F0B3002C6E5F /* Build configuration list for PBXNativeTarget "ML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9CE11121A4F0B3002C6E5F /* Debug */,
+				2A9CE11221A4F0B3002C6E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9CE0F221A4F0B1002C6E5F /* Project object */;
+}
